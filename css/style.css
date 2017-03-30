@@ -1,6 +1,8 @@
-#wrapper {
-   max-width: 100%;
-    min-width: 40%;
+#wrapper{
+    max-width:100%;      
+    min-width:90%;
+	
+	max-height:900px;      
 }
 
 #Container{
@@ -9,9 +11,7 @@
 	background-image: url(../img/background.png)
 }
 
-article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {  
-  display: block;  
-}
+
 
 body {
   font-size: medium;
@@ -22,9 +22,7 @@ body {
 
 
 
-.title{
-	
-	}
+
 	
 .hr0{
     border: 0;
@@ -34,6 +32,7 @@ body {
 	width: 20%;
 	margin-top: -10px;
 	}
+	
 .hr1{
     border: 0;
     height:0;
@@ -55,8 +54,8 @@ body {
    
 	background-color:black;
     color:white;
-    text-align: center;
-    width: 100%；
+    text-align: justify;
+    width: 100%;
          
 
 	margin-right:2%;
@@ -75,7 +74,7 @@ a {
  
 a:hover {
     color: #5188a6;
-    text-decoration: none
+    text-decoration: none;
 }
  
 
@@ -86,32 +85,32 @@ aside.NavSidebar
 { 
   
   padding: 5px 15px 5px 15px;
-  width: 14%;
+  width: 15%;
   background-color:#f9f9f9;
   height:230px;
   font-size: large;
  
-  left: 10px;
+  
   top: 120px;
   margin:20px;
-  margin-left:2%;
+  margin-left:1%;
 }
 
 aside.IntoSidebar
 {
 	padding: 5px 15px 5px 15px;
-  width: 14%;
+  width: 15%;
   background-color:#f9f9f9;
   height:330px;
   font-size: large;
   
-  left: 10px;
+  
   top: 120px;
-  margin:20px;
+  
   
   margin:20px;
   margin-top:30px;
-  margin-left:2%;
+  margin-left:1%;
 	}
 	
 aside.IntoSidebar img {
@@ -119,7 +118,7 @@ aside.IntoSidebar img {
   margin-left:48px;
   margin-top: 48px;
   border: white solid 4px;
-  max-width:100px;
+  width:120px;
   
 }
 aside.IntoSidebar tab {
@@ -166,34 +165,20 @@ aside.NavSidebar img {
 }
 
  .w3l-banner-grids {
-    margin-left:110px;
+    margin-left:40px;
 	margin-right:60px;
 	
 	
     padding: 20px 15px;
     background: rgba(255, 255, 255, 0.3);
 	height:80%;
-	width:80%;
+	width:90%;
 	
 }
 
-.w3ls-banner-right {
-    
-	float: right;
-	
-}
 
-.banner-right{
-	
-	float: right;
-	margin-left: 6%;
-	margin-right: 10%;
-	margin-top: -400px;
-	}
-.banner-right h3{
-	width：25%；
-	}
-	
+
+
 .w3ls-banner-left {
     float: left;
 	margin-left: 6%;
@@ -201,15 +186,17 @@ aside.NavSidebar img {
 }
 .w3ls-banner-left1 {
     float: left;
-	margin-left: 6%;
+	margin-left: 10%;
 	
 }
 
 .w3ls-banner-left2 {
     float: left;
-	margin-left: 6%;
+	margin-left: 17%;
 	margin-top: 12%;
 	width:30%;
+	margin-top: -300px;
+	text-align: justify;
 }
 .w3ls-banner-left-info {
     margin-bottom: 20px;
@@ -234,7 +221,7 @@ aside.NavSidebar img {
     letter-spacing: 2px;
 }
 .w3ls-banner-left-info p{
-    font-size: .9em;
+    font-size: 0.9em;
     margin: 1em 0 0 0;
     color: #cecece;
 }
@@ -254,29 +241,8 @@ aside.NavSidebar img {
 .w3ls-banner-left-info:nth-child(5){
 	border:none;
 }
-.banner-right-img{
-    float: left;
-    width: 30%;
 
-border: solid 8px #ffffff;
-}
-.banner-right-info{
-    float: right;
-    width: 30%;
-}
-.banner-right-info h2{
-    color: #FFFFFF;
-    font-size: 1em;
-    font-weight: 600;
-    margin: 0;
-    line-height: 1.5em;
-}
-.banner-right-info p{
-	color:#cecece;
-	font-size:.9em;
-	margin:3% 2% 2% 2%;
-	line-height:1.8em;
-}
+
 
 
 article.Content{
@@ -318,16 +284,18 @@ section.section1{
 	}
 
 section.section2{
-	margin:20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 	background-color:#f9f9f9;
-   
+    
 	height: 600px;
 	
 	}
 	
 .section2 a:hover{
 	 padding:0 5px 5px 0;
-background :rgba(255, 255, 255, 0.6)  right bottom ;
+      background :rgba(255, 255, 255, 0.6)  right bottom ;
 	   transition-duration:0.4s;
 	}
 	
@@ -340,7 +308,7 @@ background :rgba(255, 255, 255, 0.6)  right bottom ;
 	transition-duration:0.3s; /*过度的时间为0，5秒*/
 	height:520px;
 	width:44%;
-	colour:white;
+	
 	
     
 }
@@ -380,8 +348,7 @@ background :rgba(255, 255, 255, 0.6)  right bottom ;
 	transition-duration: 0.3s; /*过度的时间为0，5秒*/
 	height: 260px;
 	width: 47%;
-	colour:white;
-	
+
 	}	
 .section2-img3 {
 	background-image: url(../img/img3.jpg);
@@ -390,26 +357,35 @@ background :rgba(255, 255, 255, 0.6)  right bottom ;
     position: absolute;
 	left: 47.5%;
 	margin:15px;
-	margin-top:26%;
+	margin-top:330px;
 	transition-duration:0.3s; /*过度的时间为0，5秒*/
-	height:230px;
+	height:210px;
 	width:22%;
-	colour:white;
+	
 	}	
 .section2-img4 {
 	border-radius:5px; 
     position: absolute;
 	left: 72.5%;
 	margin:15px;
-	margin-top:26%;
+	margin-top:330px;
 	background-image: url(../img/img4.jpeg);
 	
 	transition-duration:0.3s; /*过度的时间为0，5秒*/
-	height:230px;
+	height:210px;
 	width:22%;
-	colour:white;
+	color:white;
 	}	
 
+section.section4{
+	
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color:#f9f9f9;
+    
+	height: 600px;
+	}	
 	
 table.imagetable {  
     font-family: verdana,arial,sans-serif;  
@@ -424,42 +400,32 @@ table.imagetable th {
 	border-width: 0px;
 	padding-top: 20px;
 	padding-bottom:20px;
-	
-	
-    
+
 	text-transform: uppercase; 
 	width: 10%;
 	
 }  
-table.tr1 {
-	
-	margin-bottom:10px;
-	
-	
-}  
-table.tr2 {
-	
-	margin-bottom:6px;
-	
-}  
+
 
 table.imagetable td {
-	background: #dcddc0;
+	
 	border-width: 0px;
-	align : "center";
-	padding-top: 20px;
-	padding-bottom:20px;
+	text-align : "center";
+	padding-top: 32px;
+	padding-bottom:32px;
 	width: 10%;
 	text-align: center;
 }  
 
 	
 section.section3{
-	margin:20px;
 	
-    color:black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+    	background-color:#f9f9f9;
 	height: 600px;
-	background-color:black;
 	}
 
 section.section3 img{
@@ -482,44 +448,7 @@ section.section3 img{
             -o-transform: scale(1.3); /*Opera*/
         }
 
- 
-.Content .LeadIn {
-  font-weight: bold;
-  font-size: large;
-  font-variant: small-caps;
-}
- 
-.Content h3 {
-  color: #24486C;
-  margin-bottom: 2px;
-  font-size: medium;
-}
- 
-.Content p {
-  margin-top: 0px;
-}
- 
-header.ArticleHeader {
-  padding: 10px;
-  margin: 10px;
-  
-}
- 
-header.ArticleHeader h2 { 
-  font-size: xx-large;
-}
- 
-header.ArticleHeader h3 {
-  margin-top: 8px;
-  font-weight: bold;
-}
- 
-header.ArticleHeader .Byline {
-  margin-top: 8px;
-  font-style: italic;
-  font-size: small;
-}
- 
+
 footer {
   background: #333333;
   color:#c0c0c0;
